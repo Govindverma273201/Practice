@@ -1,0 +1,386 @@
+<html>
+<head>
+<style>
+#outer{
+height:600px;
+width:600px;
+border:1px solid black;
+margin:0px auto;
+background-color: rgb(48, 9, 9);
+border-radius: 50px;
+}
+#outer1{
+    height:545px;
+    width:545px;
+    border:1px solid black;
+    margin:25px;
+    background-color:#92511f;
+    border-radius: 30px;
+    box-shadow:10px 10px 30px black;
+    
+    background-image: url('image/arrowleft.png');
+    background-repeat: no-repeat;
+    background-size: 60px;
+    background-position: 50px 65px;
+    
+}
+#cir1{
+    height:50px;
+    width:50px;
+    background-color: black;
+    margin-left: 8px;
+    margin-top:15px;
+    border-radius: 50px;
+}
+#cir2{
+    height:50px;
+    width:50px;
+    background-color: black;
+    margin-left: 485px;
+    margin-top:-50px;
+    border-radius: 50px;
+}
+#cir3{
+    height:50px;
+    width:50px;
+    background-color: black;
+    margin-left:10px;
+    margin-top:417px;
+    border-radius: 50px;
+}
+#cir4{
+    height:50px;
+    width:50px;
+    background-color: black;
+    margin-left: 485px;
+    margin-top:-44px;
+    border-radius: 50px;
+}
+#in1{
+    height:380px;
+    width:400px;
+    border:1px solid transparent;
+    margin-top:-450px;
+    margin-left:65px;
+    position:relative;
+}
+#inrow1{
+    height:20px;
+    width:360px;
+    border-radius: 20px;
+    margin-top: -15px;
+    box-shadow:2px 2px 2px black;
+    border:3px solid black;
+    margin-left:17px;
+}#inrow2{
+    height:340px;
+    width:400px;
+    border-radius: 20px;
+}#inrow3{
+    height:20px;
+    width:360px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow:2px 2px 2px black;
+    margin-left: 16px;
+}
+#inrow2a{
+    height:340px;
+    width:20px;
+    border-radius: 20px;
+    box-shadow:2px 2px 2px black;
+    float:left;
+    margin-top: 4px;
+    border: 3px solid black;
+    margin-left: 1px;
+   
+}
+#inrow2b{
+    height:340px;
+    width:336px;
+    border-radius: 20px;
+    float:left;
+}
+#inrow2c{
+    height:340px;
+    width:20px;
+    border-radius: 20px;
+    float:left;
+    box-shadow:2px 2px 2px black;
+    border:3px solid black;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+#ar1{
+    margin-top: -345px;
+    margin-left: 335px;
+    rotate: 8deg;
+}#ar2{
+    margin-top: -345px;
+    margin-left: 335px;
+    rotate: 8deg;
+}
+#ar3{
+    margin-top: 20px;
+    margin-left:-47px;
+    rotate: 190deg;
+}
+#ar4{
+    margin-top: -57px;
+    margin-left: 335px;
+    rotate: 90deg;
+}
+#dota1{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:left;
+    background-color:rgb(247, 11, 11);
+}
+
+#dota2{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:right;
+    background-color:rgb(247, 11, 11) ;
+}
+
+#dotb1{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:left;
+    position: fixed;
+    background-color:rgb(247, 11, 11);
+}
+
+#dotb2{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:right;
+    background-color:rgb(247, 11, 11) ;
+}
+
+#dotc1{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:left;
+    background-color:rgb(247, 11, 11);
+}
+
+#dotc2{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:right;
+    margin-top: 298px;
+    background-color:rgb(247, 11, 11) ;
+}
+
+#dotd1{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:left;
+    background-color:rgb(247, 11, 11);
+}
+
+#dotd2{
+    height:21px;
+    width:21px;
+    border-radius: 20px;
+    float:right;
+    margin-top: 298px;
+    background-color:rgb(247, 11, 11) ;
+}
+#strick{
+    height:23px;
+    width:23px;
+    position:relative;
+    border-radius:20px;
+    margin-left:120px;
+    margin-top: -18px;
+    background-color: rgb(208, 255, 0);
+}
+/*   Animation*/
+
+#strick{
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:red; left:200px; top:0px;}
+  50%  {background-color:rgb(226, 3, 3); left:-58px; top:-435px;}
+  75%  {background-color:rgb(245, 58, 11); left:-60px; top:-440px;}
+  90%  {background-color:rgb(245, 58, 11); left:200px; top:0px;}
+  100% {background-color:red; left:200px; top:0px;}
+} 
+#black1{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: black;
+    position:absolute;
+    margin-top:200px;
+    margin-left:150px;
+    animation-name: example2;
+    animation-duration: 10s;
+}
+
+@keyframes example2 {
+  0%   {background-color:black; left:410px; top:40px;}
+  25%  {background-color:black;left:410px; top:40px;}
+  33%  {background-color:black;left:410px; top:40px;}
+  39%  {background-color:black; left:260px; top:10px;}
+  70% {background-color:black; left:760px; top:-130px;}
+  100% {background-color:black; left:760px; top:-130px;}
+} 
+
+#black2{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: black;
+    position:absolute;
+    margin-top:200px;
+    margin-left:500px;
+}
+#black3{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: black;
+    position:absolute;
+    margin-top:400px;
+    margin-left:350px;
+}
+#black4{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: black;
+    position:absolute;
+    margin-top:20px;
+    margin-left:150px;
+}
+#white1{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: white;
+    position:fixed;
+    margin-top:30px;
+    margin-left:370px;
+}
+#white2{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: white;
+    border:1px solid black;
+    position:absolute;
+    margin-top:200px;
+    margin-left:25px;
+    animation-name:ex1;
+    animation-duration: 7s;
+}
+@keyframes ex1
+{
+ 0% { left:420px; top:22px;}
+ 25% { left:420px; top:22px;}
+ 50% { left:420px; top:22px;}
+ 72% { left:400px; top:220px;}
+ 100% { left:400px; top:220px;}
+
+}
+#white3{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: white;
+    position:absolute;
+    margin-top:300px;
+    margin-left:115px;
+}
+#white4{
+    height:25px;
+    width:25px;
+    border-radius:25px;
+    background-color: white;
+    position:absolute;
+    margin-top:10px;
+    margin-left:45px;
+    animation-name: example1;
+    animation-duration: 9s;
+}
+
+@keyframes example1 {
+  0%   {background-color:white; left:405px; top:35px;}
+  25%  {background-color:white; left:405px; top:35px;}
+  50%  {background-color:white; left:405px; top:35px;}
+  95%  {background-color:black; left:394px; top:52px;}
+  100% {background-color:black; left:392px; top:51px;}
+} 
+
+/*   End Animation*/
+</style>
+</head>
+<body>
+ <div id="outer">
+    <div id="outer1">
+        <div id="black1"></div>
+        <div id="black2"></div>
+        <div id="black3"></div>
+        <div id="black4"></div>
+        <div id="white1"></div>
+        <div id="white2"></div>
+        <div id="white3"></div>
+        <div id="white4"></div>
+        <div id="cir1"></div>
+        <div id="cir2"></div>
+        <div id="cir3"></div>
+        <div id="cir4"></div>
+        <div id="in1">
+            <div id="inrow1">
+                <div id="dota1"></div>
+                <div id="dota2"></div>
+            </div>
+            <div id="inrow2">
+                <div id="inrow2a">
+                <div id="dotc1"></div>
+                <div id="dotc2"></div>
+                </div>
+                <div id="inrow2b">
+                    <img src="image/star5-removebg-preview.png" height="260px" style="margin-top:50px;margin-left: 50px;position:relative;"/>
+                    <img src="image/arrow1-removebg-preview.png" height="60px" id="ar1">
+                      <img src="image/arrow1-removebg-preview.png" height="60px" id="ar2">
+                    <img src="image/arrow1-removebg-preview.png" height="60px" id="ar3">
+                    <img src="image/arrow1-removebg-preview.png" height="60px" id="ar4">
+                </div>
+                <div id="inrow2c">
+                <div id="dotd1"></div>
+                <div id="dotd2"></div>
+                </div>
+            </div>
+            <div id="inrow3">
+                <div id="dotb1"></div>
+                <div id="dotb2">
+
+                </div>
+            </div>
+        </div>
+        <div id="strick"></div>
+    </div>
+ </div>
+</body>
+</html>
